@@ -2,7 +2,7 @@
 <module>
 	<name>dbdatatext</name>
 	<displayName><![CDATA[DB Ofuscador]]></displayName>
-	<version><![CDATA[1.0.0]]></version>
+	<version><![CDATA[1.1.0]]></version>
 	<description><![CDATA[Ofuscador de enlaces]]></description>
 	<author><![CDATA[DevBlinders]]></author>
 	<tab><![CDATA[front_office_features]]></tab>

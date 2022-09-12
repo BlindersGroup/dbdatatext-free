@@ -22,6 +22,18 @@
 * @license   Commercial license
 *}
 
+<div class="iframetop_devblinders" style="margin-bottom: 1rem;">
+	<iframe src="https://cdn.devblinders.com/modules/free/iframe.php?module=classicblinders"
+			width="100%"
+			height="80px"
+			border="0"
+			frameborder="0"
+			scrolling="no"
+			id="frame_module"
+	>
+	</iframe>
+</div>
+
 <div class="panel">
 	<h3><i class="icon icon-tags"></i> {l s='Documentation' mod='dbdatatext'}</h3>
 	<p>{l s='Este módulo no ofusca los enlaces automáticamente, hay que modificar el html del enlace.' mod='dbdatatext'}</p>
@@ -42,4 +54,16 @@
 	<p>{l s='Si queremos abrir el link en una pestaña nueva seria este formato' mod='dbdatatext'}</p>
 	{assign var="enlace_nuevo_target" value='<span class="thumbnail product-thumbnail datatext" datatext="url_producto_codificado_base64" datatarget="blank">Anchor text</span>'}
 	<p>{$enlace_nuevo_target|escape}</p>
+</div>
+
+<div class="iframebottom_devblinders">
+	<iframe src="https://cdn.devblinders.com/modules/free/iframe_bottom.php?module=classicblinders"
+			width="100%"
+			height="250"
+			border="0"
+			frameborder="0"
+			scrolling="no"
+			id="frame_module"
+	>
+	</iframe>
 </div>

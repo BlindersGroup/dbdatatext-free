@@ -35,7 +35,7 @@ class Dbdatatext extends Module
     {
         $this->name = 'dbdatatext';
         $this->tab = 'seo';
-        $this->version = '1.0.0';
+        $this->version = '1.1.0';
         $this->author = 'DevBlinders';
         $this->need_instance = 0;
 
